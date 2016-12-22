@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="Bill Hoang" content="Codify's Survey Project">
+		<link charset="UTF-8">
+    	<link rel="stylesheet" type="text/css" href="css/main.css">
+    	<link rel="stylesheet" type= "text/css" href="css/animate.css">
+    	<link rel="stylesheet" type= "text/css" href="css/bootstrap.css">
+    	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+		<title>Survey</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row"></div>
+			<!--first question !-->
+				<div class="col-xs-2"></div>
+				<div class="col-xs-8">	
+					<h1>Survey</h1>
+					<form id="form">
+						<h2>What Sports do you like?</h2>
+						<input type="checkbox" value="Basketball" class="question1"> Basketball
+						<input type="checkbox" value="Baseball"   class="question1"> Baseball
+						<input type="checkbox" value="Football"   class="question1"> Football
+						<input type="checkbox" value="Hockey"     class="question1"> Hockey
+						<input type="checkbox" value="Soccer"     class="question1"> Soccer
+					</form>
+				</div>
+				<div class="col-xs-2"></div>
+		</div>
+		<div class="container">
+			<div class="row"></div>
+			<!--second question !-->
+				<div class="col-xs-2"></div>
+				<div class="col-xs-8">
+							<h2>What is your favorite color?</h2>
+						<form id="form2">
+						<select id="selectStyle">
+							<option value="black"  class="question2">Select Color</option>
+							<option value="black"  class="question2">black</option>
+							<option value="blue"   class="question2">blue</option>
+							<option value="green"  class="question2">green</option>
+							<option value="orange" class="question2">orange</option>
+							<option value="pink"   class="question2">pink</option>
+							<option value="purple" class="question2">purple</option>
+							<option value="red"    class="question2">red</option>
+							<option value="white"  class="question2">white</option>
+							<option value="yellow" class="question2">yellow</option>
+						</select>
+						</form>
+				</div>
+				<div class="col-xs-2"></div>
+		</div>
+			<div class="container">
+				<div class="row"></div>
+				<!--question three !-->
+					<div class="col-xs-2"></div>
+					<div class="col-xs-8">
+					<form id="form3">
+						<h2>What is your gender?</h2>
+						<input type="radio" name="gender" value="male"   class="question3" > Male <br>
+						<input type="radio" name="gender" value="female" class="question3" > Female <br>
+						<input type="radio" name="gender" value="other"  class="question3" > Other
+					</form>
+					</div>
+					<div class="col-xs-2"></div>
+				</div>
+				<div class="container">
+					<div class="col-xs-2"></div>
+					<div class="col-xs-8">
+						<br>
+						<button type="button" id="submitSurvey">Submit Survey</button>	
+						<div id ="results"></div>
+					</div>
+					<div class="col-xs-2"></div>
+			</div>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+

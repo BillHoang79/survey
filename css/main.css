@@ -1,0 +1,35 @@
+html, body {
+	color: #b1d5ed !important;
+	font-family: 'Abril Fatface', cursive !important; 
+	height: 100%;
+
+}
+
+body {
+	background-image: url("../img/image.jpg");
+	background-position: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+#submitSurvey, #selectStyle {
+	background-color: #052c55;
+}
+
+#results {
+	color: #b1d5ed;
+	margin: 10px 0;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.success {
+	background-color: #073664;
+	transition: 0.3s all ease-in-out;
+}
+
+.faliure {
+	background-color: #072664;
+	transition: 0.3s all ease-in-out;
+}
